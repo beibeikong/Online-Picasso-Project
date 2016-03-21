@@ -1,0 +1,223 @@
+/* start the first page */
+body 
+{
+	background-color: white;
+	color: black;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	font-size: 8pt;
+}
+
+.TitlePage
+{
+	width: 6in;
+	height: 9in;
+	border: 1px silver solid;
+	text-align:center;
+	page-break-before: auto;
+	vertical-align:middle;
+}
+.TitlePage img
+{
+	margin: 2in 0 0 0;
+}
+.TitlePage .Title
+{
+	display: block;
+	font-family: 'Bauhaus 93',Arial,Helvetica,sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: red;
+	margin: .5in 0 .5in 0;
+}
+
+.TitlePage .SubTitle
+{
+	display: block;
+	font-size: 14pt;
+	font-weight: bold;
+	margin: .5in 0 3.5in 0;
+	font-family:"Times New Roman", Times, serif;
+}
+.TitlePage .Copyright
+{
+	display: block;
+	font-size: 12pt;
+	font-family:"Times New Roman", Times, serif;
+}
+
+/* end the first page */
+/* start Artwork Small Print */
+.PageFooter
+{
+	width: auto;
+	height: 0.2in;
+	vertical-align: bottom;
+	color: gray;
+	font-size:9pt;
+}
+
+.Page
+{
+	width: 6in;
+	border: 1px silver solid;
+	page-break-before: always;
+	text-align:center;
+}
+.PageInside
+{
+  	width: 5.9in;
+	margin-top:0.2in;
+	text-align:center;
+	vertical-align:top;
+	border:1px;
+}
+
+
+
+.duration
+{
+	background-color: rgb(245,245,245);
+	padding:5px 4px 5px 1px;
+    width: 110px;
+	background-image: url(../images/shade-silvercolumn.png);
+	background-position: right top;
+	background-repeat: repeat-y;
+	vertical-align:top;
+	font-size: 8pt;
+	font-weight: bold;
+	font-variant:small-caps;
+	text-align: right;
+	color: black;
+}
+.title
+{
+	text-align: left;
+	padding:3px 0px 3px 2px;
+	vertical-align: top;
+	border-top: 1px dotted silver;
+	font-size: 8pt;
+	line-height:15px;
+	text-align:justify;
+}/* CSS Document */
+
+a.Biotab
+{
+	display: block;
+	width: 75px;
+	margin: 5px -2px 2px auto;
+	padding: 2px 4px 2px 2px;
+	font-size: 7pt;
+	font-weight: normal;
+	font-variant: normal;
+	color: gray;
+	border-style: solid;
+	border-color: rgb(210,210,210);
+	border-width: 1px 0 1px 1px;
+	text-decoration:none;
+}
+a.Biotab:hover
+{
+	text-decoration: none;
+}
+a.Biotab:active
+{
+	padding: 3px 3px 1px 3px;
+	border-style: solid;
+	border-color: rgb(100,100,100) white white rgb(100,100,100);
+	border-width: 1px 0 1px 1px;
+	text-decoration: none;
+}
+
+
+A.link1:link, A.link1:active, A.link1:active, A.link1:visited
+{
+	color: maroon;
+	text-decoration: none;
+}
+A.link1:hover
+{
+	color: maroon;
+	text-decoration: underline;
+}
+
+.artisticPeriod
+{
+	font-weight: bold;
+	color: red;
+}
+.changeLocation
+{
+	font-weight: bold;
+}
+.yearPastCategory
+{
+	color: red;
+}
+.PicassoQuote
+{
+	color: red;
+	font-weight: bold;
+}
+
+.OPP
+{
+	color: maroon;
+	font-size:8pt;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+}
+.category
+{
+	font-size:8pt;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+}
+.big_year
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 24pt;
+	font-weight: bold;
+	color: maroon;
+	font-variant: small-caps;
+	letter-spacing: 1.5pt;
+	margin: 3px 3px 3px 3px;
+	text-align: center;
+}
+.age
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-weight: bold;
+	font-size: 12pt;
+	letter-spacing: normal;
+	color: red;
+}
+h2
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: red;
+	font-variant: small-caps;
+	letter-spacing: 1.5pt;
+	margin: 3px 3px 3px 3px;
+	text-align: center;
+}
+.commentaryTitle
+{
+	text-align: right;
+	background-color: rgb(255,239,213);
+	color: gray;
+	padding: 2px;
+	border: 0;
+    width:60px;
+	vertical-align: top;
+	font-size: 8pt;
+}
+.Info
+{
+	background-color: rgb(255,239,213);
+    padding-right:15px;
+	text-align:justify;
+	vertical-align: top;
+	border-top: 1px dotted silver;
+	font-size: 8pt;
+}

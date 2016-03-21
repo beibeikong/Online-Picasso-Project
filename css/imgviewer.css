@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	height: 100%;
+	overflow: hidden;
+}
+
+.ZoomControls
+{
+	vertical-align: middle;
+	color: white;
+}
+.ZoomControls select
+{
+	vertical-align: middle;
+	font-size: 7pt;
+}
+
+#FullSizeImage,
+#FullSizeImageTail
+{
+	visibility: hidden;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+#ImgHolder
+{
+	display: block;
+	position: relative;
+	background-color: white;
+	top: 0;
+	left: 0;
+	
+	width: auto;
+	height: 90%;
+	border: inset 2px silver;
+	margin: -10px 5px 0 5px;
+	padding: 0;
+	overflow: hidden;
+	text-align: left;
+}
+

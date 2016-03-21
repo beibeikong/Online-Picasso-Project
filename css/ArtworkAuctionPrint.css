@@ -1,0 +1,98 @@
+/* start the first page */
+.TitlePage
+{
+	width: 6in;
+	height: 9in;
+	border: 1px silver solid;
+	text-align:center;
+	page-break-before: auto;
+	vertical-align:middle;
+}
+.TitlePage img
+{
+	margin: 2in 0 0 0;
+}
+.TitlePage .Title
+{
+	display: block;
+	font-family: 'Bauhaus 93',Arial,Helvetica,sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: red;
+	margin: .5in 0 .5in 0;
+}
+
+.TitlePage .SubTitle
+{
+	display: block;
+	font-size: 14pt;
+	font-weight: bold;
+	margin: .5in 0 3.5in 0;
+}
+.TitlePage .Copyright
+{
+	display: block;
+	font-size: 12pt;
+}
+
+/* end the first page */
+/* start Artwork Small Print */
+
+.Page
+{
+	width: 6in;
+	border: 1px silver solid;
+	page-break-before: always;
+	text-align:center;
+}
+.PageInside
+{
+  	width: 5.9in;
+	margin-top:0.2in;
+	text-align:center;
+	vertical-align:top;
+	border:1px;
+}
+h2
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: red;
+	font-variant: small-caps;
+	letter-spacing: 1.5pt;
+	margin: 3px 3px 3px 3px;
+	text-align: center;
+}
+.noteTitle
+{
+	text-align: right;
+	background-color: white;
+	color: gray;
+	padding: 2px;
+	border: 0;
+    width:80px;
+	vertical-align: top;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	font-size: 8pt;
+}
+.Info
+{
+	background-color: white;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px dotted silver;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	font-size: 8pt;
+}
+td ul
+{
+	margin: 1px 0 3px 0;
+	padding-left: 20px;
+}
+ul li
+{
+	list-style-type: circle;
+}
+

@@ -1,0 +1,93 @@
+/* start the first page */
+.TitlePage
+{
+	width: 7in;
+	height: 9in;
+	border: 1px silver solid;
+	text-align:center;
+	page-break-before: auto;
+	vertical-align:middle;
+}
+.TitlePage img
+{
+	margin: 2in 0 0 0;
+}
+.TitlePage .Title
+{
+	display: block;
+	font-family: 'Bauhaus 93',Arial,Helvetica,sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: red;
+	margin: .5in 0 .5in 0;
+}
+
+.TitlePage .SubTitle
+{
+	display: block;
+	font-size: 14pt;
+	font-weight: bold;
+	margin: .5in 0 3.5in 0;
+}
+
+.TitlePage .Copyright
+{
+	display: block;
+	font-size: 12pt;
+}
+
+/* end the first page */
+/* start Writing Print */
+.PageFooter
+{
+	width: auto;
+	height: 0.2in;
+	vertical-align: bottom;
+	color: gray;
+	font-size:9pt;
+}
+
+.Page
+{
+	width: 7in;
+
+	border: 1px silver solid;
+	page-break-before: always;
+	text-align:center;
+}
+.PageInside
+{
+  	width: 6.9in;
+
+	margin-top:0.2in;
+	text-align:center;
+	vertical-align:top;
+	border:1px;
+}
+.Duration
+{
+	display: block;
+	font-size: 10pt;
+	font-weight: bold;
+	color: red;
+	font-variant:small-caps;
+	margin: 5px;
+}
+#pline
+{
+	font-size: 9pt;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	padding-left: 4em; 
+	margin-right: 4px; 
+	margin-top: 2px; 
+	margin-bottom: 2px;
+	text-indent:-40px;
+	text-align:justify;
+	
+}
+.small
+{
+	font-size: 7pt;
+	color: gray;
+}

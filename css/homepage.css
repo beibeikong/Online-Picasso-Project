@@ -1,0 +1,82 @@
+.style1
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: red;
+	font-variant: small-caps;
+	letter-spacing: 1.5pt;
+	text-align: center;
+}
+
+.summary
+{
+	margin: 0 0 0 0;
+	padding: 0;
+	font-family: Georgia,Utopia,serif;
+	font-size: 18pt;
+	font-style: italic;
+	color: rgb(119,100,84);
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	clear: none;
+}
+
+.title
+{
+	width: 90px;
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	clear: none;
+}
+
+.Citation
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-style: italic;
+	font-size: 12pt;
+	text-align:left;
+}
+.Quote
+{
+	font-weight: bold;
+	font-size: 14pt;
+	font-family:"Times New Roman", Times, serif;
+}
+.Citator
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-style: italic;
+	font-size: 12pt;
+	text-align: right;
+	margin: 3px 40px 40px 40px;
+}
+
+.ViewCounters
+{
+	font-size: 6pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#CountersContainer
+{
+	display: none;
+}
+
+A.collaboration:link
+{
+color:#FF0000;
+	text-decoration: none;
+}
+A.collaboration:hover
+{
+color:#FF0000;
+	text-decoration: underline;
+}
+A.collaboration:visited
+{
+	color:#FF0000;
+	text-decoration: none;
+} 

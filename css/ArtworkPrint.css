@@ -1,0 +1,264 @@
+/* start the first page */
+.TitlePage
+{
+	width: 6in;
+	height: 9in;
+	border: 1px silver solid;
+	text-align:center;
+	page-break-before: auto;
+	vertical-align:middle;
+}
+.TitlePage img
+{
+	margin: 2in 0 0 0;
+}
+.TitlePage .Title
+{
+	display: block;
+	font-family: 'Bauhaus 93',Arial,Helvetica,sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: red;
+	margin: .5in 0 .5in 0;
+}
+
+.TitlePage .SubTitle
+{
+	display: block;
+	font-size: 14pt;
+	font-weight: bold;
+	margin: .5in 0 3.5in 0;
+}
+.TitlePage .Copyright
+{
+	display: block;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	font-size: 8pt;
+}
+
+/* end the first page */
+/* start Artwork Small Print */
+.PageFooter
+{
+	width: auto;
+	height: 0.2in;
+	vertical-align: bottom;
+	color: gray;
+	font-size:9pt;
+}
+
+.Page
+{
+	width: 6in;
+	height: 9in;
+	border: 1px silver solid;
+	page-break-before: always;
+	text-align:center;
+}
+.PageInside
+{
+  	width: 5.9in;
+	height: 8.6in;
+	margin-top:0.2in;
+	text-align:left;
+	vertical-align:top;
+	border:1px;
+}
+.PageImg
+{
+  	width: 5.4in;
+	height: 7in;
+	margin:auto;
+	border:1px;
+	background:no-repeat center;
+	-moz-background-size:contain;
+	-o-background-size:contain;
+	-webkit-background-size:contain;
+	-ms-background-size:contain;
+	background-size:contain;
+}
+.PageImg .img .protected 
+{
+	z-index:-1;
+	margin:auto;
+	
+}
+.InfoPage
+{
+	width: 6in;
+	border: 1px silver solid;
+	page-break-before: always;
+	text-align:center;
+}
+.InfoPageInside
+{
+  	width: 5.9in;
+	margin-top:0.2in;
+	text-align:center;
+	vertical-align:top;
+	border:1px;
+}
+.PageInsideInfo
+{
+  	width: 5.9in;
+	height: 8.6in;
+	margin-top:0.2in;
+	text-align:center;
+	vertical-align:top;
+}
+
+.ThumbGallery .CatID
+{
+	color: maroon;
+	vertical-align: baseline;
+	text-align:center;
+	font-size: 8pt;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+}
+.ThumbGallery
+{
+	width:95%;
+	background-color: white;		/*rgb(255,236,236)		rgb(255,240,240)*/
+	background-position: center center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(240,240,240) silver silver rgb(240,240,240);		/*rgb(255,230,230) rgb(150,120,120) rgb(150,120,120) rgb(255,230,230);*/
+	text-align: center;
+	vertical-align: top;
+	padding: 1px;
+}
+
+.Pic
+{
+  width: 100%;
+  height:112px;
+  text-align:center;
+}
+.InfoDiv
+{
+	width:180px;
+	background-color: white;		/*rgb(255,236,236)		rgb(255,240,240)*/
+	background-position: center center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(240,240,240) silver silver rgb(240,240,240);		/*rgb(255,230,230) rgb(150,120,120) rgb(150,120,120) rgb(255,230,230);*/
+	text-align: center;
+	vertical-align: top;
+	padding: 1px;
+}
+
+
+.ThumbGallery .Pic td img
+{
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	text-align:center;
+	border-color: silver rgb(240,240,240) rgb(240,240,240) silver;		/*rgb(150,120,120) white white rgb(150,120,120);*/
+}
+/* end Artwork Small Print */
+
+.InfoHolder
+{
+
+  text-align:left;
+  vertical-align:top;
+  font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+  font-size: 8pt;
+  
+    width:100%;
+	height:265;
+	background-color: white;		/*rgb(255,236,236)		rgb(255,240,240)*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(240,240,240) silver silver rgb(240,240,240);		/*rgb(255,230,230) rgb(150,120,120) rgb(150,120,120) rgb(255,230,230);*/
+	padding: 2px;
+}
+.infoLarge1
+{
+  text-align:left;
+  padding-left:5px;
+  vertical-align:middle;
+  font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+  font-size: 8pt;
+  background-color: white;		/*rgb(255,236,236)		rgb(255,240,240)*/
+  
+}
+.infoLarge2
+{
+  text-align:left;
+  padding-right:5px;
+  vertical-align:middle;
+  font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+  font-size: 8pt;
+  background-color: white;		/*rgb(255,236,236)		rgb(255,240,240)*/
+  
+}
+.MediumDim
+{
+	font-style: normal;
+}
+
+.Separator
+
+{
+
+	width: 90%;
+
+	height: .10in;
+
+	border-top: solid silver 1px;
+
+	margin-top: .05in;
+
+}
+
+.Thumbnail
+
+{
+
+	text-align: center;
+
+	vertical-align: middle;
+	width:150px;
+
+}
+
+.Thumbnail img
+
+{
+
+	margin: 0 .1in 0 .1in;
+
+}
+
+
+A.link1:link, A.link1:active, A.link1:active, A.link1:visited
+{
+	color: maroon;
+	text-decoration: none;
+}
+A.link1:hover
+{
+	color: maroon;
+	text-decoration: underline;
+}
+.CommentaryInfo
+{
+       background-color: white;
+       padding-right:5px;
+	text-align: justify;
+	vertical-align: top;
+	border-top: 1px dotted silver;
+	font-size: 8pt;
+}
+.Container
+{
+	background-color: white;
+	border-style: solid;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);		/*red maroon maroon red*/
+	border-width: 0px 1px 1px 1px;
+	margin: 0px;
+	text-align: center;
+}

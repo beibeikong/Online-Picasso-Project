@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 0;
+	text-align: center;
+	background-color: white;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	color: black;
+}
+#ArtworkCompare
+{
+	margin-top: 0px;
+}
+
+#ImgHolder
+{
+	width: 320px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid orange;
+	text-align: center;
+	vertical-align: middle;
+}
+#ImgHolder a:link,hover,visited
+{
+	text-decoration: none;
+}
+#ImgHolder a img
+{
+	border: 0;
+}
+#ImgHolder small
+{
+	font-size: 7pt;
+	color: gray;
+}
+
+.ArtworksInfo td
+{
+	vertical-align: top;
+	width: 320px;
+}
+
+#ArtworkCompare .InfoLabel
+{
+	width: 65px;
+	color: gray;
+	text-align: right;
+	padding-right: 5px;
+	vertical-align:top;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 8pt;
+}
+#ArtworkCompare .Info
+{
+  width: 235px;
+  text-align: left;
+  padding-left: 5px;
+  vertical-align:top;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 8pt;
+}
+#ArtworkCompare .Info a:link,active,visited 
+{
+	color: maroon;
+	text-decoration: none;
+}
+#ArtworkCompare .Info a:hover
+{
+	color: maroon;
+	text-decoration: underline;
+}
+/**************************************************
+ * Compared Artworks Styles.
+ */
+#ArtworkCompare #AltsHolder
+{
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+#ArtworkCompare #AltsHolder div
+{
+	width: 640px;
+	overflow: auto;
+	height: 140px;
+	margin: 0px;
+	padding: 0px;
+}
+.singleImage
+{
+    min-width:108px;
+	width: 108px;
+	height: 108px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(240,240,240) silver silver rgb(240,240,240);
+}
+#ArtworkCompare #AltsHolder div td img
+{
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver rgb(240,240,240) rgb(240,240,240) silver;
+}
+A.link1:link, A.link1:active, A.link1:active, A.link1:visited
+{
+	color: maroon;
+	text-decoration: none;
+}
+A.link1:hover
+{
+	color: maroon;
+	text-decoration: underline;
+}

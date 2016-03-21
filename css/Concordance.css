@@ -1,0 +1,214 @@
+.BoxStateClosed, .BoxStateOpen
+{
+	text-align: center;
+	width: 680px;
+	margin-top: 30px;
+}
+ .BoxStateOpen
+{
+	background-color: rgb(230,230,230);
+	border: solid 1px rgb(200,200,200);
+}
+ .LabelHolder
+{
+	width: 100%;
+	table-layout: fixed;
+}
+.BoxStateOpen .LabelHolder hr	{	display: none;	}
+.Label						{	color: maroon; text-decoration:none}
+.BoxStateOpen .Label {	font-weight: bold; }
+.BoxStateClosed .LabelCellHolder	{	width: 230px; text-align:left; padding-left:3px;}
+.BoxStateOpen .LabelCellHolder	{	width: 260px; text-align:left; padding-left:3px;}
+.Label:hover	{	text-decoration: none;	}
+.Label img		{	border: 0;	}
+.BoxStateOpen   .Label img.Plus	{	display: none;	}
+.BoxStateClosed .Label img.Minus	{	display: none;	}
+
+/* following is for catalog choosing table*/
+.Contents
+{
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+}
+.BoxStateClosed .Contents	{	display: none;	}
+
+.CatalogColumnList
+{
+	width: 280px;
+	margin-top:5px;
+}
+
+.cataname
+{
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	height:25px;
+	vertical-align:top;
+}
+
+#ArtworkList
+{
+	overflow-x: auto;
+}
+
+/************concordance table**************/
+/************concordance table**************/
+.ArtworkConcordance
+{
+	width: 100%;
+	font-size: 7pt;
+}
+.ArtworkConcordance td
+{
+	padding: 2px 2px 2px 2px;
+	text-align: left;
+	border-left: 1px dotted silver;
+	border-bottom:1px solid #eeeeee;
+}
+.ArtworkConcordance .Header td
+{
+	background-color: rgb(220,220,220);
+	border-style: solid;
+	border-width: 1px;
+	border-color: #eeeeee silver silver white;
+	text-align: center;
+	font-family: Tahoma,Verdana,Arial;
+	padding: 0;
+}
+.ArtworkConcordance .Header .order
+{
+	background-color: rgb(220,220,220);
+	border-style: solid;
+	border-width: 1px;
+	border-color: #eeeeee silver silver #eeeeee;
+	text-align: center;
+	font-family: Tahoma,Verdana,Arial;
+	padding: 0;
+}
+.ArtworkConcordance .Header td a
+{
+	display: block;
+	width: auto;
+	color: black;
+	padding: 2px 2px 2px 2px;
+	text-decoration: none;
+}
+.ArtworkConcordance .Header td a:hover
+{
+	text-decoration: none;
+	padding-bottom: 0;
+	border-bottom: solid 2px rgb(248,240,237);
+}
+.ArtworkConcordance .Header td a:active
+{
+	border-style: solid;
+	border-width: 2px 0 0 2px;
+	border-color: silver;
+	padding-bottom: 0;
+	text-decoration: none;
+}
+.ArtworkConcordance .Header td.SortSelected
+{
+	background-color: rgb(225,193,177);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(175,143,127) white white rgb(175,143,127);
+	font-weight: bold;
+	padding-left:2px;
+	padding-right:2px;
+}
+/* header done */
+.ArtworkConcordance tr.Odd td,
+.ArtworkConcordance tr.Even td
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+	vertical-align: top;
+}
+.ArtworkConcordance tr.Odd
+{
+	background-color: #eeeeee;		/*rgb(255,223,207)*/
+}
+.ArtworkConcordance tr.Even
+{
+	background-color: #FFFFFF;		/*rgb(255,236,236)*/
+}
+.ArtworkConcordance td.RowNumber
+{
+	width: 25px;
+	text-align: right;
+	vertical-align: middle ! important;
+	border-bottom:1px solid #eeeeee;
+	padding-right:4px;
+}
+.ArtworkConcordance .ckbox
+{
+	height: 8px;
+	padding: 1px 1px 0px 1px;
+	vertical-align:middle;
+}
+
+
+.smallcheck {
+	height: 13px;
+	width: 13px;
+	padding: 0px;
+	vertical-align:middle;
+}
+
+.redSortby
+{
+color:#FF0000;
+}
+
+
+A.opplink:link
+{
+color:#FF0000;
+	text-decoration: none;
+}
+A.opplink:hover
+{
+color:#FF0000;
+	text-decoration: underline;
+}
+A.opplink:visited
+{
+color:#FF0000;
+	text-decoration: none;
+}
+A.opplink:active
+{
+color:#FF0000;
+	text-decoration: none;
+}
+
+A.opplink1:link
+{
+color: #999999;
+	font-size: 10px;
+	text-decoration: none;
+}
+A.opplink1:hover
+{
+color: #999999;
+	font-size: 10px;
+	text-decoration: underline;
+}
+A.opplink1:visited
+{
+color: #999999;
+	font-size: 10px;
+	text-decoration: none;
+}
+A.opplink1:active
+{
+color: #999999;
+	font-size: 10px;
+	text-decoration: none;
+}
+.styleAother {
+	color: #999999;
+	font-size: 10px;
+}

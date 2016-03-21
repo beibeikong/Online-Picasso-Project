@@ -1,0 +1,59 @@
+.Author			{	font-weight: bold; 	}
+.Book	{	font-style: italic;	}
+.Title	{	font-style: italic;	}
+.Journal		{	font-style: italic;	}
+.Volume			{	font-style: italic;	}
+
+
+
+/******** for Collections */
+.number
+{
+color:black;
+font-weight: lighter;
+}
+
+A.collection:link
+{
+color:maroon;
+font-weight: lighter;
+	text-decoration: none;
+}
+A.collection:hover
+{
+color:maroon;
+font-weight: lighter;
+
+	text-decoration: underline;
+}
+A.collection:visited
+{
+	color:maroon;
+font-weight: lighter;
+
+	text-decoration: none;
+}
+
+/******** for Reference */
+
+a:link
+{
+color:#000000;
+font-weight: lighter;
+	text-decoration: none;
+}
+a:hover
+{
+color:#000000;
+font-weight: lighter;
+	text-decoration: underline;
+}
+a:visited
+{
+color:#000000;
+font-weight: lighter;
+	text-decoration: none;
+} 
+input[type="checkbox"]{
+ margin:1px 1px 1px 2px
+}

@@ -1,0 +1,101 @@
+html
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: Tahoma;
+	font-size: 8pt;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	color: blue;
+	text-decoration: underline;
+}
+blockquote
+{
+	margin: 0 0 2px 13px;
+	padding: 1px;
+	border: 0;
+}
+
+div.Hidden,div.Visible
+{
+	border: 0;
+}
+/*div.Hidden > blockquote
+{
+	display: none;
+	background-color: orange;
+}
+div.Visible > blockquote
+{
+	display: block;
+	background-color: yellow;
+}*/
+div.Hidden blockquote
+{
+	display: none;
+}
+div.Visible blockquote div.Hidden blockquote
+{
+	display: none;
+}
+div.Visible blockquote
+{
+	display: block;
+}
+
+div img
+{
+	min-width: 9px;
+	min-height: 9px;
+	width: 9px;
+	height: 9px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+}
+div img.Plus
+{
+	background-image: url(../images/tree-plus.png);
+}
+div img.Minus
+{
+	background-image: url(../images/tree-minus.png);
+}
+.TreeStructure
+{
+	table-layout: fixed;
+}
+.TreeStructure .OpenClose
+{
+	min-width: 10px;
+	width: 10px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	/*vertical-align: top;*/
+}
+.TreeStructure .OpenClose .ExpandMate
+{
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 9px;
+	min-width: 9px;
+	height: 9px;
+	min-height: 9px;
+}

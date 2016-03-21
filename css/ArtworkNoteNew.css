@@ -1,0 +1,225 @@
+html
+{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+body
+{
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	font-size: 8pt;
+	color: black;
+	z-index: -1;
+       
+}
+
+
+
+@charset "utf-8";
+
+/**************************************************
+ * Main Holder Styles.
+ */
+#ArtworkInfo
+{
+	margin-top: 0px;
+}
+#ArtworkInfo #Author
+{
+	display: block;
+	font-size: 10pt;
+	font-weight: bold;
+	color: red;
+	text-transform: uppercase;
+}
+#ArtworkInfo #Duration
+{
+	display: block;
+	font-size: 10pt;
+	font-weight: bold;
+	color: red;
+	font-variant:small-caps;
+}
+#ArtworkInfo #Title
+{
+	display: block;
+	font-size: 12pt;
+	font-weight: bold;
+	color: maroon;
+	margin-top: 0;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#ArtworkInfo #ImgHolder
+{
+	width: 320px;
+	/*height: 340px;*/
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid orange;
+	text-align: center;
+	vertical-align:top;
+}
+#ArtworkInfo #ImgHolder a img
+{
+	border: 0;
+}
+#ArtworkInfo #ImgHolder small
+{
+	font-size: 7pt;
+	color: gray;
+}
+
+#ArtworkInfo #InfoHolder
+{
+	vertical-align: top;
+	width: 385px;
+}
+
+/**************************************************
+ * Alternative Images Styles.
+ */
+#ArtworkInfo #AltsHolder
+{
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 15px 0px 0px 0px;
+}
+#ArtworkInfo #AltsHolder .AltTitle
+{
+	color: maroon;
+	font-weight: bold;
+}
+#ArtworkInfo #AltsHolder div
+{
+	width: 640px;
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+#ArtworkInfo #AltsHolder div table
+{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#ArtworkInfo #AltsHolder div td
+{
+	min-width: 108px;
+	width: 108px;
+	height: 108px;
+	padding: 2px;
+	text-align: center;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(240,240,240) silver silver rgb(240,240,240);
+}
+#ArtworkInfo #AltsHolder div td img
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver rgb(240,240,240) rgb(240,240,240) silver;
+}
+
+
+
+/**************************************************
+ * Tab Styles.
+ */
+.TabContainer
+{
+	width: 100%;
+	table-layout: fixed;
+	border: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+
+}
+
+.TabContainer .Tabs td
+{
+	border: 0px solid orange;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+      
+}
+.TabContainer .Tabs img
+{
+	border: 0px;
+	width: 24px;
+	height: 22px;
+	vertical-align: middle;
+}
+.TabContainer .Tabs .Active
+{
+	width: 85px;
+	background-color: white;
+	border-width: 1px 1px 0px 1px;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);
+	padding-top: 3px;
+	vertical-align: middle;
+	background-color: white;
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+       font-size: 11px;
+	background-repeat: repeat-x;
+	color: maroon;
+}
+.TabContainer .Tabs .EmptySpace
+{
+	border-width: 0px 0px 1px 0px;
+	border-color: rgb(225,200,200);
+}
+.Container
+{
+	background-color: white;
+	border-style: solid;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);		/*red maroon maroon red*/
+	border-width: 0px 1px 1px 1px;
+	margin: 0px;
+	text-align: center;
+}
+.InfoLabel
+{
+	width: 65px;
+	color: gray;
+	text-align: right;
+	padding-right: 5px;
+	vertical-align:top;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.Info
+{
+  text-align: left;
+  padding-left: 5px;
+  vertical-align:top;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+A.link1:link, A.link1:active, A.link1:active, A.link1:visited
+{
+	color: maroon;
+	text-decoration: none;
+}
+A.link1:hover
+{
+	color: maroon;
+	text-decoration: underline;
+}
+.Highlight
+{
+	background-color: yellow;
+	text-decoration: inherit;
+	color: inherit;
+}

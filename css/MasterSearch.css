@@ -1,0 +1,513 @@
+
+body
+{
+	margin: 0;
+	padding: 50px 0 65px 0;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	font-size: 8pt;
+	color: black;
+	z-index: -1;
+}
+
+.HeaderBar
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	table-layout: auto;
+	background-color: red;
+	background-image: url(../images/shade-redbar-small.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+.Logo
+{
+	width: 61px;
+	padding: 0;
+	text-align: left;
+	vertical-align: top;
+}
+.Logo img
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-bottom: -29px;
+	z-index: 1000;
+}
+.Title
+{
+	//width: 190px;
+	text-align: left;
+	vertical-align: middle;
+	color: white;
+	padding: 0;
+	font-family: 'Bauhaus 93',Arial,Helvetica,sans-serif;
+	font-size: 16pt;
+	font-weight: normal;
+	font-variant: small-caps;
+	//border-right: solid 1px white;
+}
+.Toolbar
+{
+	text-align: right;
+	vertical-align: middle;
+	padding: 0 5px 0 0;
+}
+.Toolbar table
+{
+	text-align: right;
+	border: 0;
+	vertical-align: middle;
+
+}
+.Toolbar table tr td a
+
+{
+	color: white;
+	display: block;
+	padding: 4px 4px 4px 21px;
+	border: 1px solid red;
+	font-size: 7pt;
+	background-position: 1px center;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+.Toolbar table tr td a:hover
+{
+	display: block;
+	text-decoration: none;
+	border: 1px solid rgb(255,220,220);
+}
+.Toolbar a#BtnPrint {   background-image: url(../images/btn-print.png);} 
+.Toolbar a#BtnZoom	{	background-image: url(../images/btn-zoom.gif);	}
+.Toolbar a#BtnClose	{	background-image: url(../images/btn-close.gif);	}
+.Toolbar a#NtAndComtry	{	background-image: url(../images/btn-openext.gif);	}
+.Toolbar a#NtAndComtry	{	background-image: url(../images/btn-openext.gif);	}
+
+
+.main_body
+{
+	background-color: rgb(255,248,237);
+	background-position: right top;
+	background-repeat: repeat-x;
+	vertical-align: top;
+	overflow: visible;
+	border-style: solid;
+	border-color: rgb(169,150,134);
+	border-width: 1px 1px 1px 1px;
+}
+
+/* header */
+
+#FakeBodyHeader
+{
+	height: 70px;
+	background-image: url(../images/shade-redbar-big.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	border-style: solid;
+	border-color: rgb(169,150,134);
+	border-width: 0px 1px 0px 1px;
+	vertical-align: top;
+	padding: 0;
+}
+.MainHeader
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.MainHeader td
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.MainHeader .Emblem
+{
+	text-align: center;
+	vertical-align: top;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	width: 80px;
+}
+.MainHeader .Emblem img
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin-bottom: -15px;
+	margin-top: 3px;
+	z-index: 1000;
+}
+
+.MainHeader .Title
+{
+	text-align: left;
+	vertical-align: bottom;
+}
+.MainHeader .Title img
+{
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	margin-bottom: 4px;
+}
+.MainHeader .Links td
+{
+	width: 107px;
+	height: 15px;
+	background-color: transparent;	/*rgb(170,0,0)*/
+	border-style: solid;
+	border-color: rgb(169,150,134);
+	border-width: 1px 0px 0px 1px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+.MainHeader .Links td a
+{
+	display: block;
+	height: 100%;
+	margin: 0;
+	padding: 1px;
+	color: rgb(245,245,245);
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.1pt;
+	border-color: rgb(255,100,100) rgb(170,0,0) rgb(170,0,0) rgb(255,100,100);
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+}
+.MainHeader .Links td a:hover
+{
+	color: red;
+	background-color: white;
+	text-decoration: none;
+	border-color: rgb(255,160,160) maroon maroon rgb(255,160,160);
+}
+.MainHeader .Links td a:active
+{
+	background-color: white;
+	background-image: url(../images/shade-pressedwhitecorner.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	border-color: maroon;
+	border-width: 0 0 1px 0;
+	padding: 3px 1px 0px 1px;
+	color: black;
+	text-decoration: none;
+}
+.MainHeader .Links td a img
+{
+	border: 0;
+	padding: 0;
+}
+.MainHeader .Links .Spacer
+{
+	width: auto;
+	border-left: 0;
+}
+
+/* end of header */
+
+/* footer */
+.footer_table
+{
+	background-image: url(../images/shade-brownfooter.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	border-style: solid;
+	border-color: rgb(169,150,134);
+	border-width: 1px 1px 1px 1px;
+	color: rgb(102,94,84);
+}
+
+A.footer_link:link{color: rgb(102,94,84);text-decoration: none;}
+A.footer_link:visited{color: rgb(102,94,84);text-decoration: none;}
+A.footer_link:active{color: rgb(102,94,84);text-decoration: none;}
+A.footer_link:hover{color: maroon;text-decoration: underline;}
+
+
+/* end of footer */
+
+/* menu */
+.OPPFloatingMenuContainer
+{
+	display: none;
+	border-style: solid;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);	/*silver gray gray silver;*/
+	border-width: 2px;
+	position: absolute;
+	top: 88px;
+	left: 310px;
+	z-index: 2000;
+	overflow: visible;
+	margin: 0;
+	padding: 0;
+}
+.OPPFloatingMenu
+{
+	width: 550px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+/* tabs */
+.TabContainer
+{
+	width: 100%;
+	table-layout: fixed;
+	border: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.TabContainer .Tabs td
+{
+	border: 0px solid orange;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+}
+.TabContainer .Tabs img
+{
+	border: 0px;
+	width: 24px;
+	height: 22px;
+	vertical-align: middle;
+}
+.TabContainer .Tabs .Active
+{
+	width: 160px;
+	background-color: white;
+	border-width: 1px 1px 0px 1px;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);
+	padding-top: 3px;
+	vertical-align: middle;
+	background-color: white;
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: maroon;
+}
+
+.TabContainer .Tabs .Inactive
+{
+	width: 160px;
+	border-width: 0px 0px 1px 0px;
+	border-color: rgb(225,200,200);
+	padding-top: 5px;
+}
+.TabContainer .Tabs .InactiveEmpty
+{
+	width: 160px;
+	border-width: 0px 0px 1px 0px;
+	border-color: rgb(225,200,200);
+	padding-top: 5px;
+}
+.TabContainer .Tabs .Inactive a
+{
+	background-color: white;
+	border-color: silver gray gray silver;
+	border-style: solid;
+	border-width: 1px 1px 0px 1px;
+	display: block;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	color:red;
+}
+.TabContainer .Tabs .Inactive a:hover
+{
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-top-color: rgb(225,200,200);
+	text-decoration: none;
+	color:red;
+}
+.TabContainer .Tabs .EmptySpace
+{
+width:auto;
+	border-width: 0px 0px 1px 0px;
+	border-color: rgb(225,200,200);
+}
+.TabContainer .Container
+{
+	width:auto;
+	background-color: white;
+	border-style: solid;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);		/*red maroon maroon red*/
+	border-width: 0px 1px 1px 1px;
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
+}
+/* end of tabs */
+
+.big_year
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 24pt;
+	font-weight: bold;
+	color: maroon;
+	font-variant: small-caps;
+	letter-spacing: 1.5pt;
+	margin: 3px 3px 3px 3px;
+	text-align: center;
+}
+.age
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-weight: bold;
+	font-size: 12pt;
+	letter-spacing: normal;
+	color: red;
+}
+h1
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 24pt;
+	font-weight: bold;
+	color: maroon;
+	font-variant: small-caps;
+	letter-spacing: 1.5pt;
+	margin: 3px 3px 3px 3px;
+	text-align: center;
+}
+h2
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: red;
+	font-variant: small-caps;
+	letter-spacing: 1.5pt;
+	margin: 3px 3px 3px 3px;
+	text-align: center;
+}
+h3
+{
+	width: auto;
+	color: black;
+	font-size: 10pt;
+	padding: 0;
+	margin: 5px;
+	text-align: center;
+}
+h4
+{
+	width: auto;
+	color: red;
+	font-size: 9pt;
+	padding: 0;
+	margin: 5px;
+	text-align: center;
+}
+
+/* button */
+.PageButton
+{
+	display: block;
+	width: 45px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 7pt;
+	text-align: center;
+	color: maroon;
+	margin: 2px;
+	padding: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(240,240,240) silver silver rgb(240,240,240);
+	overflow: visible;
+	text-decoration:none;
+}
+.PageButton:hover
+{
+	text-decoration: none;
+	background-color: rgb(255,248,237);
+}
+.PageButton:active
+{
+	border-color:  silver rgb(240,240,240) rgb(240,240,240) silver;
+	padding: 3px 1px 1px 3px;
+	text-decoration:none;
+}
+/* end of button */
+
+/* page navigator */
+.PageNavigator
+{
+	width: 90%;
+	text-align: center;
+}
+.PageNavigator td.Arrow
+{
+	width: 30px;
+}
+.PageNavigator td
+{
+	vertical-align: middle;
+	padding: 0px 5px 0px 5px;
+}
+
+.PageLinks
+{
+	margin: 2px 0px 2px 0px;
+}
+.PageLinks td
+{
+	text-align: center;
+	vertical-align: middle;
+	width: 23px;
+	padding: 1px ! important;
+	border: 1px solid silver;
+	border-width: 1px 0px 0px 1px;
+	background-color: white;
+}
+.PageLinks td.Prev10, .PageLinks td.Next10
+{
+	font-size: 7pt;
+	width: 55px;
+}
+.PageLinks td a
+{
+	display: block;
+	margin: 0px;
+	text-align: center;
+	padding: 2px 5px 2px 5px;
+	text-decoration:none;
+	color:red;
+}
+.PageLinks td a:hover
+{
+	background-color: rgb(225,193,177);
+	text-decoration: none;
+	color: white;
+}
+.PageLinks td a.Current
+{
+	background-color: rgb(225,193,177);
+	color: white;
+	text-decoration:none;
+}
+/* end of page navigator */
+.Highlight
+{
+	background-color: yellow;
+	text-decoration: inherit;
+	color: inherit;
+}

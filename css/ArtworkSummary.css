@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+.Thumbnail
+{
+	height: 116px;
+	width: 116px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px;
+}
+
+.Even
+{
+	background-image: url(../images/shade-silverrow-big.png);
+	background-position: left center;
+	background-repeat: repeat-x;
+}
+
+
+.Info
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 15px 40px 2px 5px;
+}
+
+a.SmallControl
+{
+	font-size: 7pt;
+	margin: 2px;
+	padding: 0px;
+	border-style: solid;
+	border-color: white rgb(150,120,120) rgb(150,120,120) white;
+	border-width: 0px;
+	text-decoration: none;
+	color:red;
+}
+a.SmallControl:hover
+{
+	background-color: rgb(255,223,207);
+	text-decoration: none;
+	margin: 4px 0px 4px 0px;
+	padding: 1px;
+	border-width: 1px;
+	color:red;
+}
+a.SmallControl img
+{
+	width: 10px;
+	height: 10px;
+	border: 0px;
+	vertical-align: middle;
+}
+.imageStyle
+{
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver rgb(240,240,240) rgb(240,240,240) silver;		/*rgb(150,120,120) white white rgb(150,120,120);*/
+}
+.ThumbGallery
+{
+	width: 114px;
+	background-image: url(../images/shade-silverdiagonalbox.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(240,240,240) silver silver rgb(240,240,240);		/*rgb(255,230,230) rgb(150,120,120) rgb(150,120,120) rgb(255,230,230);*/
+	text-align: center;
+	vertical-align: top;
+	
+}
+.Pic
+{
+	width: 108px;
+	height: 108px;
+	text-align: center;
+	vertical-align: middle;
+}
+.MediumDim
+{
+	font-style: normal;
+	margin: 3px 0px 3px 0px;
+	padding: 0px;
+}
+
+/*   Start OPP Customization */
+.BoxStateClosed, .BoxStateOpen
+{
+	text-align: center;
+	width: 620px;
+	margin-top: 30px;
+}
+ .BoxStateOpen
+{
+	background-color: rgb(230,230,230);
+	border: solid 1px rgb(200,200,200);
+}
+ .LabelHolder
+{
+	width: 100%;
+	table-layout: fixed;
+}
+.BoxStateOpen .LabelHolder hr	{	display: none;	}
+.Label						{	color: maroon; text-decoration:none}
+.BoxStateOpen .Label {	font-weight: bold; }
+.BoxStateClosed .LabelCellHolder	{	width: 180px; text-align:left; padding-left:3px;}
+.BoxStateOpen .LabelCellHolder	{	width: 250px; text-align:left; padding-left:3px;}
+.Label:hover	{	text-decoration: none;	}
+.Label img		{	border: 0;	}
+.BoxStateOpen   .Label img.Plus	{	display: none;	}
+.BoxStateClosed .Label img.Minus	{	display: none;	}
+
+/* following is for catalog choosing table*/
+.Contents
+{
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+}
+.BoxStateClosed .Contents	{	display: none;	}
+
+.OPPColumnList
+{
+	width: 285px;
+	margin-top:5px;
+	height: 190px;
+	text-align:left;
+}
+
+A.link1:link, A.link1:active, A.link1:visited
+{
+	color: maroon;
+	text-decoration: none;
+}
+A.link1:hover
+{
+	color: maroon;
+	text-decoration: underline;
+}
+a:link, a:visited
+{
+	color:maroon;
+	text-decoration: none;
+}
+a:hover
+{
+	color:maroon;
+	text-decoration: underline;
+}
+ .OPP
+{
+	color: maroon;
+}
+/* end OPP Customization */

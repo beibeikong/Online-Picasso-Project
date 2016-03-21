@@ -1,0 +1,29 @@
+
+.noteTitle
+{
+	text-align: right;
+	background-color: white;
+	color: gray;
+	padding: 2px;
+	border: 0;
+    width:80px;
+	vertical-align: top;
+	font-size: 8pt;
+}
+.Info
+{
+	background-color: white;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px dotted silver;
+	font-size: 8pt;
+}
+td ul
+{
+	margin: 1px 0 3px 0;
+	padding-left: 20px;
+}
+ul li
+{
+	list-style-type: circle;
+}

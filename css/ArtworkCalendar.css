@@ -1,0 +1,41 @@
+.calendarHeader {
+font-weight: bolder;
+color: #CC0000;
+background-color: #e5d6c3;
+height: 15px;
+text-align:center;
+vertical-align:middle;
+}
+
+.seasonHeader {
+font-weight: bolder;
+color: #CC0000;
+background-color: #e5d6c3;
+height: 15px;
+width: 60px;
+text-align:center;
+vertical-align:middle;
+}
+.calendar {
+font: 1em/1em Verdana, Helvetica, serif;
+margin: 0.5em;
+border-collapse: separated;
+
+padding:5px 5px 5px 5px;
+border: 1px solid red;
+font-family: sans-serif;
+font-size: 12px;
+line-height: 10px;
+height: 140px;
+}
+
+A.link1:link, A.link1:active, A.link1:active, A.link1:visited
+{
+	color: maroon;
+	text-decoration: none;
+}
+A.link1:hover
+{
+	color: maroon;
+	text-decoration: underline;
+}

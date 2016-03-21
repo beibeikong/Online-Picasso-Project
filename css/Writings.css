@@ -1,0 +1,72 @@
+.duration
+{
+	background-color: rgb(245,245,245);
+	padding:5px 4px 5px 1px;
+    width: 150px;
+	background-image: url(../images/shade-silvercolumn.png);
+	background-position: right top;
+	background-repeat: repeat-y;
+	vertical-align:middle;
+	font-size: 8pt;
+	font-weight: bold;
+	font-variant:small-caps;
+	text-align: right;
+	color: black;
+}
+.title
+{
+	text-align: left;
+	padding:3px 0px 3px 2px;
+	vertical-align: middle;
+	border-top: 1px dotted silver;
+	font-size: 8pt;
+	line-height:15px;
+}
+A.link1:link{color: maroon;text-decoration: none;}
+A.link1:visited{color: maroon;text-decoration: none;}
+A.link1:active{color: maroon;text-decoration: none;}
+A.link1:hover{color: maroon;text-decoration: underline;}
+
+.Concordance
+{
+	width:130px;
+	border-bottom:1px dotted silver;
+	text-align:left;
+	vertical-align:middle;
+ 	padding: 3px 5px 3px 4px;
+	font-size: 7pt;
+	font-weight: bold;
+	
+}
+.Number
+{
+	border-bottom:1px dotted silver;
+	text-align:left;
+	vertical-align:middle;
+ 	padding: 3px 5px 3px 4px;
+	border-right:1px solid silver;
+	color: black;
+	font-size: 7.5pt;
+	font-variant:small-caps;
+}
+.NumberLast
+{
+	border-bottom:1px dotted silver;
+	text-align:left;
+	vertical-align:middle;
+ 	padding: 2px 5px 2px 4px;
+}
+A.concordanceLink:link{color: maroon;text-decoration: none;}
+A.concordanceLink:visited{color: maroon;text-decoration: none;}
+A.concordanceLink:active{color: maroon;text-decoration: none;}
+A.concordanceLink:hover{color: maroon;text-decoration: underline;}
+.context
+{
+	text-align: left;
+	padding:3px 0px 3px 40px;
+	vertical-align: middle;
+	border-top: 1px dotted silver;
+	font-size: 8pt;
+	line-height:15px;
+	text-indent:-40px;
+}

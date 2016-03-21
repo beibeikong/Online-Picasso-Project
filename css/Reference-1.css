@@ -1,0 +1,56 @@
+.Author			{	font-weight: bold; 	}
+.Book	{	font-style: italic;	}
+.Title	{	font-style: normal;	}
+.Journal		{	font-style: italic;	}
+.Volume			{	font-style: italic;	}
+
+
+
+/******** for Collections */
+.number
+{
+color:red;
+font-weight: lighter;
+}
+
+A.collection:link
+{
+color:maroon;
+font-weight: lighter;
+	text-decoration: none;
+}
+A.collection:hover
+{
+color:maroon;
+font-weight: lighter;
+
+	text-decoration: underline;
+}
+A.collection:visited
+{
+	color:maroon;
+font-weight: lighter;
+
+	text-decoration: none;
+}
+
+/******** for Reference */
+
+a:link
+{
+color:maroon;
+font-weight: lighter;
+	text-decoration: none;
+}
+a:hover
+{
+color:maroon;
+font-weight: lighter;
+	text-decoration: underline;
+}
+a:visited
+{
+color:maroon;
+font-weight: lighter;
+	text-decoration: none;
+} 

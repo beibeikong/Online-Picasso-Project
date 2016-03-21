@@ -1,0 +1,58 @@
+@charset "utf-8";
+h2
+{
+	font-family: 'Times New Roman',Times,serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: red;
+	font-variant: small-caps;
+	letter-spacing: 1.5pt;
+	margin: 3px 3px 3px 3px;
+	text-align: center;
+}
+
+.ErrorMsgEmptyCompact
+{
+	display: block;
+	color: maroon;
+	width: 150px;
+	border: double 3px red;
+	text-align: center;
+	padding: 10px;
+}
+
+.noteTitle
+{
+	text-align: left;
+	background-color: rgb(230,230,230);
+	color: black;
+	font-variant: small-caps;
+	font-size: 7.5pt;
+	font-weight: normal;
+	padding: 2px;
+	border: 0;
+    width:0.7in;
+	vertical-align: top;
+}
+.Info
+{
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px dotted silver;
+}
+td ul
+{
+	margin: 1px 0 3px 0;
+	padding-left: 20px;
+}
+ul li
+{
+	list-style-type: circle;
+}
+
+.iframeNote
+{
+	overflow: -moz-scrollbars-vertical;
+	overflow-x: none;
+  	overflow-y: auto;
+}

@@ -1,0 +1,48 @@
+/* tabs */
+
+.Duration
+{
+	display: block;
+	font-size: 10pt;
+	font-weight: bold;
+	color: red;
+	font-variant:small-caps;
+	margin: 5px;
+}
+.poemTitle
+{
+	display: block;
+	font-size: 12pt;
+	color: maroon;
+	font-weight: bold;
+	margin: 3px 0px 3px 0px;
+}
+.titleDura
+{	text-align:center;
+	vertical-align: middle;
+	border-top: 1px solid rgb(225,200,200);
+}
+.small
+{
+	font-size: 7pt;
+	color: gray;
+}
+#pline
+{
+	padding-left: 4em; 
+	margin-top: 2px; 
+	margin-bottom: 2px;
+	text-indent:-40px;
+	text-align:justify;
+	line-height:100%;
+}
+
+.translation {
+        padding-left: 4em; 
+	margin-top: 2px; 
+	margin-bottom: 2px;
+	text-indent:-40px;
+	text-align:justify;
+	line-height:100%;
+    
+}

@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+.NavBar
+{
+clear:none; 
+}
+.NavBar button
+{
+	font-size: 8pt;
+	padding: 1px 3px 1px 3px;
+	vertical-align: middle;
+}
+.NavBar button img
+{
+	vertical-align: middle;
+}
+.Letterselect
+{   
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+	vertical-align: middle;
+}
+.EntriesList
+{
+border-width:1px 1px 1px 1px; border-color: silver; border-style: solid;
+
+font-family: Tahoma;
+}
+.EntriesList .Header td
+{
+	text-align: center;
+	font-weight: bold;
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: maroon;
+	border-right:1px dotted silver;
+}
+.Even
+{
+	background-image: url(../images/shade-silverrow-big.png);
+	background-position: left center;
+	background-repeat: repeat-x;
+}
+.EditBtn		
+{	width: 35px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.EditBtn button { padding: 2px;}
+
+
+
+
+.label
+{	
+    width: 40px; 
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:middle;
+	border-right:1px dotted silver;	
+}
+
+.DateSE
+{	width: 33px;	    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;
+}
+
+.intro
+{	
+    width: 200px; 
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+.opps
+{	
+    width: 200px; 
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+.notes
+{	
+    width: 70px; 
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+.authors
+{	width: 200px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+}
+A.authorsLink:link{color: maroon;text-decoration: none;}
+A.authorsLink:visited{color: maroon;text-decoration: none;}
+A.authorsLink:active{color: maroon;text-decoration: none;}
+A.authorsLink:hover{color: maroon;text-decoration: underline;}
+.Checks			
+{	width: 33px;	    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;
+	font-size: x-large;	font-family: 'Arial Unicode MS',Arial,Helvetica,sans-serif;
+}
+.Checks .true	{	color: green;	}
+.Checks .false	{	color: red;	}
