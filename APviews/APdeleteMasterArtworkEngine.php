@@ -1,0 +1,16 @@
+<?php if ( ! defined('PROJECTNAME')) exit(''); 
+if(file_exists('./APmodules/checkUser.php'))
+    require_once('./APmodules/checkUser.php');  // check if it is authenrized user
+else
+    die('0'); 
+
+require_once(APMODULES_PATH.'deleteMasterArtworkEngine.php');
+$obj = new deleteMasterArtworkEngine($_GET['opp']);
+$result = $obj->checkdata();
+if($result == "OK") // check whether this studyname exists.
+{
+    $result = $obj->deleteMasterArtwork();
+}
+	
+echo($result);
+?>
