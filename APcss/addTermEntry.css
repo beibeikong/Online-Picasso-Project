@@ -1,0 +1,139 @@
+/*********************** start tabs ****************/
+.TabContainer
+{
+	
+	table-layout: fixed;
+	border: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.TabContainer .Tabs td
+{
+	border: 0px solid orange;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+}
+.TabContainer .Tabs img
+{
+	border: 0px;
+	width: 24px;
+	height: 22px;
+	vertical-align: middle;
+}
+.TabContainer .Tabs .Active
+{
+	width: 120px;
+	background-color: white;
+	border-width: 1px 1px 0px 1px;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);
+	padding-top: 3px;
+	vertical-align: middle;
+	background-color: white;
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: maroon;
+}
+
+.TabContainer .Tabs .EmptySpace
+{
+	border-width: 0px 0px 1px 0px;
+	border-color: rgb(225,200,200);
+}
+.Container
+{
+	height:300px;
+	background-color: white;
+	border-style: solid;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);		/*red maroon maroon red*/
+	border-width: 0px 1px 1px 1px;
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
+	vertical-align:top;
+}
+/******************** end tabs *********************************************/
+
+input, select
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+}
+button
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 10pt;
+	padding: 2px 6px 2px 6px;
+}
+
+/**************************************************
+ * Data entry tables.
+ */
+.DataEntry td
+{
+	text-align: left;
+	font-family: Tahoma;
+}
+.DataEntry .Label
+{
+	font-weight: bold;
+	text-align:right;
+	padding-right:5px;
+}
+
+
+
+/**************************************************
+ * Button holders.
+ */
+.ActionButtons td
+{
+	padding: 0px 15px 0 15px;
+	vertical-align: middle;
+}
+.ActionButtons td div
+{
+	background-color: rgb(240,240,240);
+	border: 1px solid rgb(220,220,220);
+	padding: 0 5px 0 5px;
+	vertical-align: middle;
+}
+.ActionButtons td div button
+{
+	margin: 8px 5px 8px 5px;
+}
+
+
+/**************************************************
+ * Status display styles.
+ */
+.StatusHolder
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.StatusHolder td
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.Hidden
+{
+	display: none;
+}
+.StatusHolder .ImageHolder
+{
+	width: 22px;
+	text-align: center;
+}
+.StatusHolder #StatusMessage
+{
+	width: 150px;
+	text-align: left;
+	padding-left: 3px;
+}

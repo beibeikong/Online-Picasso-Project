@@ -1,0 +1,400 @@
+html
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body
+{
+	margin: 0;
+	padding: 50px 0 65px 0;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	font-family: Verdana,'Bitstream Vera Sans',sans-serif;
+	font-size: 8pt;
+	color: black;
+	z-index: -1;
+}
+.HeaderBar
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	table-layout: auto;
+	background-color: red;
+	background-image: url(../images/shade-redbar-small.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+.Logo
+{
+	width: 61px;
+	padding: 0;
+	text-align: left;
+	vertical-align: top;
+}
+.Logo img
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-bottom: -29px;
+	z-index: 1000;
+}
+.Title
+{
+	width: 190px;
+	text-align: left;
+	vertical-align: middle;
+	color: white;
+	padding: 0;
+	font-family: 'Bauhaus 93',Arial,Helvetica,sans-serif;
+	font-size: 16pt;
+	font-weight: normal;
+	font-variant: small-caps;
+	border-right: solid 1px white;
+}
+.Toolbar
+{
+	text-align: right;
+	vertical-align: middle;
+	padding: 0 5px 0 0;
+}
+.Toolbar table
+{
+	text-align: right;
+	border: 0;
+	vertical-align: middle;
+
+}
+.Toolbar a
+
+{
+	color: white;
+	display: block;
+	padding: 4px 4px 4px 21px;
+	border: 1px solid red;
+	font-size: 7pt;
+	background-position: 1px center;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+.Toolbar a:hover
+{
+	display: block;
+	text-decoration: none;
+	border: 1px solid rgb(255,220,220);
+}
+.Toolbar a#BtnExtrn	{	background-image: url(../images/btn-openext.gif);	}
+.Toolbar a#BtnClose	{	background-image: url(../images/btn-close.gif);	}
+
+/* tabs */
+.TabContainer
+{
+	width: 500px;
+	table-layout: fixed;
+	border: 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.TabContainer .Tabs td
+{
+	border: 0px solid orange;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px 3px 0px 3px;
+}
+.TabContainer .Tabs img
+{
+	border: 0px;
+	width: 24px;
+	height: 22px;
+	vertical-align: middle;
+}
+.TabContainer .Tabs .Active
+{
+	width: 120px;
+	background-color: white;
+	border-width: 1px 1px 0px 1px;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);
+	padding-top: 3px;
+	vertical-align: middle;
+	background-color: white;
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: maroon;
+}
+
+.TabContainer .Tabs .Inactive
+{
+	width: 120px;
+	border-width: 0px 0px 1px 0px;
+	border-color: rgb(225,200,200);
+	padding-top: 5px;
+}
+.TabContainer .Tabs .Inactive a
+{
+	background-color: white;
+	border-color: silver gray gray silver;
+	border-style: solid;
+	border-width: 1px 1px 0px 1px;
+	display: block;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	color:red;
+}
+.TabContainer .Tabs .Inactive a:hover
+{
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-top-color: rgb(225,200,200);
+	text-decoration: none;
+	color:red;
+}
+.TabContainer .Tabs .EmptySpace
+{
+	border-width: 0px 0px 1px 0px;
+	border-color: rgb(225,200,200);
+}
+.Container
+{
+	background-color: white;
+	border-style: solid;
+	border-color: rgb(225,200,200) rgb(150,120,120) rgb(150,120,120) rgb(225,200,200);		/*red maroon maroon red*/
+	border-width: 0px 1px 1px 1px;
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
+}
+
+.YearIndex
+{
+	font-size: 9pt;
+}
+
+.YearIndex td
+{
+
+	background-color: white;		/*rgb(255,236,236);*/
+	padding: 0px;
+	vertical-align: middle;
+	text-align: left;
+	line-height:20px;
+}
+
+.YearIndex a
+{
+	text-decoration: none;
+	color:red;
+}
+
+.YearIndex a:hover
+{
+	text-decoration: underline;
+	color: red;
+}
+
+.Copyright
+{
+	display:none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height:37px;
+	background-color: rgb(241,233,222);
+	background-image: url(../images/shade-brownfooter-small.png);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	border-style: solid;
+	border-color: rgb(169,150,134);
+	border-width: 1px 0px 0px 0px;
+	margin: 20px 0 0 0;
+	padding: 0px;
+	text-align: center;
+	color: rgb(102,94,84);
+}
+
+/******Letter index styles.********/
+.LetterIndex
+{
+	font-size: 8pt;
+}
+
+.LetterIndex td
+{
+	border: 1px solid silver;
+	border-width: 1px 0px 0px 1px;
+	background-color: white;		/*rgb(255,236,236);*/
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.LetterIndex a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	color:red;
+}
+
+.LetterIndex a:hover
+{
+	background-color: rgb(225,193,177);
+	text-decoration: none;
+	color: white;
+}
+
+
+/**************************************************
+ * Start Search form styles.
+ */
+.SearchForm
+{
+	table-layout: fixed;
+	font-family: Tahoma;
+	margin-bottom: 0;
+}
+.SearchForm td
+{
+	padding: 1px;
+	vertical-align: middle;
+}
+.SearchForm .fieldLabel, .SearchForm .fieldCtrls
+{
+	vertical-align: top;
+	text-align: left;
+	border-width: 0 0 1px 0;
+	border-color: silver;
+	border-style: solid;
+	padding: 5px 3px 5px 3px;
+}
+.SearchForm .fieldLabel
+{
+	width: 75px;
+	font-weight: bold;
+}
+
+.SearchForm select
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+	vertical-align: middle;
+}
+.SearchForm input
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.SearchForm .submitArea
+{
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+}
+.SearchForm .submitArea input
+{
+	margin: 0px 5px 0px 5px;
+}
+
+.SearchForm .SubLabels td
+{
+	font-style: italic;
+}
+.SearchForm .RadioLabel
+{
+	text-align: left;
+}
+.SearchForm .ScrollArea
+{
+	overflow: auto;
+}
+.SearchForm .ScrollArea#ArtworkKeywords
+{
+	height: 73px;
+}
+
+.SearchForm .fieldCtrls table td
+{
+	padding: 1px 1px 1px 1px;
+	border: 0;
+}
+.SearchForm .fieldCtrls table td input, .SearchForm .fieldCtrls table td select
+{
+	margin: 0;
+}
+
+
+/*.SearchForm input[type="submit"]  -->  Internet Explorer sucks! */
+.SearchForm #FormSubmit
+{
+	font-size: 12pt;
+	color: maroon;
+}
+/*.SearchForm input[type="reset"]  -->  Internet Explorer sucks! */
+.SearchForm #FormReset
+{
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+.SearchForm#ArchivesSearch input
+{
+	vertical-align: middle;
+}
+.SearchForm#ArchivesSearch .fieldLabel
+{
+	vertical-align: top;
+}
+.SearchForm#ArchivesSearch #LanguageList
+{
+	margin-left: 25px;
+}
+.SearchForm#ArchivesSearch #LanguageList td
+{
+	vertical-align: top;
+}
+.SearchForm#ArchivesSearch #LanguageList.Disabled td
+{
+	color: grey;
+}
+.SearchForm#ArchivesSearch #LanguageList td img
+{
+	vertical-align: middle;
+}
+
+
+.SearchForm#BioSearch #StartMonth,
+.SearchForm#BioSearch #StartDay,
+.SearchForm#BioSearch #EndMonth,
+.SearchForm#BioSearch #EndDay
+{
+	display: none;
+}
+
+.SearchForm#BioSearch		{	width: 365px;	}
+.SearchForm#BioSearchK		{	width: 365px;	}
+.SearchForm#BioSearchM		{	width: 365px;	}
+.SearchForm#WorkSearch		{	width: 440px;	}
+.SearchForm#ArchivesSearch	{	width: 400px;	}
+
+/**************************************************
+ * End Search form styles.
+ */

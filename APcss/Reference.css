@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+.NavBar
+{
+clear:none; 
+}
+.NavBar button
+{
+	font-size: 8pt;
+	padding: 1px 3px 1px 3px;
+	vertical-align: middle;
+}
+.NavBar button img
+{
+	vertical-align: middle;
+}
+.Letterselect
+{   
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+	vertical-align: middle;
+}
+.EntriesList
+{
+border-width:1px 1px 1px 1px; border-color: silver; border-style: solid;
+word-break:break-all;
+font-family: Tahoma;
+}
+.EntriesList .Header td
+{
+	text-align: center;
+	font-weight: bold;
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: maroon;
+	border-right:1px dotted silver;
+}
+.Even
+{
+	background-image: url(../images/shade-silverrow-big.png);
+	background-position: left center;
+	background-repeat: repeat-x;
+}
+.EditBtn		
+{	width: 35px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.EditBtn button { padding: 2px;}
+.aaa { vertical-align:middle; text-align:center; }
+
+.ID
+{	width: 30px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.Author
+{	width: 80px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+.Books
+{	width: 40px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.Catalogs
+{	width: 40px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.Exhibitions
+{	width: 40px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.Title
+{	
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+
+.Date
+{	width: 30px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.Publisher
+{	width: 70px;	    
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;
+}
+.Journal	
+{	width: 50px;	    
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;
+}
+.Edition	
+{	width: 80px;	    
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;
+}
+.Issue	
+{	width: 50px;	    
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;
+}
+.Volume
+{	width: 70px;    
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;
+}
+/* for Archive */
+.Title_Archive
+{	
+    width: 100px; 
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+.Date1
+{	width: 25px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.Date2
+{	width: 80px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.Text
+{	
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+.Language
+{	
+    width: 16px;		
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.DateFlagUpper
+{
+	color: blue;
+}
+.EntriesList .TextView
+{
+	display: block;
+	overflow: hidden;
+	border: 0;
+	background-color: transparent;
+	color: black;
+	font-family: 'Courier New',Courier,monospace;
+	font-size: 8pt;
+	text-align: left;
+}
+
+
+/*  for Bio Resourse */
+.BioRes_id
+{	
+    width: 130px; 
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+.BioRes_name
+{	
+    width: 120px; 
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+.BioRes_type
+{	
+    width: 40px; 
+	padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:left;
+	border-right:1px dotted silver;	
+}
+/******Year index styles.********/
+.YearIndex
+{
+	font-size: 10pt;
+}
+.YearIndex td
+{
+	border: 1px solid silver;
+	border-width: 1px 0px 0px 1px;
+	background-color: white;		/*rgb(255,236,236);*/
+	padding: 3px;
+	width: 35px;
+	height: 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.YearIndex a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+	text-decoration: none;
+	color:red;
+}
+
+.YearIndex a:hover
+{
+	background-color: rgb(225,193,177);
+	text-decoration: none;
+	color: white;
+}
+

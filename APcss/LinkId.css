@@ -1,0 +1,73 @@
+
+.NavBar
+{
+clear:none; 
+}
+.NavBar button
+{
+	font-size: 8pt;
+	padding: 1px 3px 1px 3px;
+	vertical-align: middle;
+}
+.NavBar button img
+{
+	vertical-align: middle;
+}
+.Yearselect
+{   
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+	vertical-align: middle;
+}
+.EntriesList
+{
+border-width:1px 1px 1px 1px; border-color: silver; border-style: solid;
+
+font-family: Tahoma;
+}
+.EntriesList .Header td
+{
+	text-align: center;
+	font-weight: bold;
+	background-image: url(../images/shade-browntab.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: maroon;
+	border-right:1px dotted silver;
+}
+.Even
+{
+	background-image: url(../images/shade-silverrow-big.png);
+	background-position: left center;
+	background-repeat: repeat-x;
+}
+.EditBtn		
+{	width: 40px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.EditBtn button { padding: 2px;}
+
+.Linkid
+{	width: 50px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.title
+{	width: 300px;		
+    padding: 2px 4px 2px 4px;
+	vertical-align: left;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
+.url
+{	
+    padding: 2px 4px 2px 4px;
+	vertical-align: middle;
+	text-align:center;
+	border-right:1px dotted silver;	
+}
