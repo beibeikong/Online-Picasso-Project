@@ -1,0 +1,77 @@
+<?php if ( ! defined('PROJECTNAME')) exit(''); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Archives Year Index - <?=PROJECTNAME?></title>
+<link rel="stylesheet" href="./css/menu.css"/>
+<script type="text/javascript" src="./js/menu.js"></script>
+</head>
+
+<body onload="Initialize('Biography Year Index'); AutoSizePopup();">
+<?php
+require_once(MODULES_PATH.'MenuArchive.php');
+$obj = new MenuArchive();
+$obj->getYearIndex();
+?>
+
+<table class="HeaderBar" cellspacing="0">
+  <tr>
+    <td class="Logo"><img src="./images/opp-emblem-corner.png" width="61" height="59" /></td>
+    <td class="Title">Archives</td>
+    <td class="Toolbar">
+      <table cellspacing="0" align="right">
+        <tr>
+		  <td><a id="BtnExtrn" href="#" onclick="OpenWin(this.href,'OPPMenu',550,320); return false;">External Pop-Up</a></td>
+		  <td><a id="BtnClose" href="javascript:ClosePopup();">Close</a></td>
+		</tr>
+	  </table>
+	</td>
+  </tr>
+</table>
+<center>
+<table class="TabContainer" id="MenuTabs" cellspacing="0" align="center">
+  <tr class="Tabs">
+  	<td class="Active"><img src="./images/magnify-art.png"/>Chronology</td>
+	<td class="Inactive"><a href="index.php?view=MenuArchivesSearch"><img src="./images/magnify-text.png"/>Search</a></td>
+	<td class="EmptySpace">&nbsp;</td>
+  </tr>
+  
+  <tr>
+	<td class="Container" colspan="3">
+	<table class="YearIndex" align="center">
+	<?php $year=1930; $yearEnd=2030; while($year<=$yearEnd) { ?>
+      <tr>
+		<?php
+			for($i=1; $i<=10; $i++)
+			{
+			  if($obj->checkYear($year)==1)
+			  	echo("<td><a href=\"index.php?view=Archives&year=$year\" target=\"OPPMain\">$year</a></td>");
+			  else
+			    echo("<td>$year</td>");
+			  $year++;
+			}
+		?>
+      </tr>
+	<?php } ?>
+    </table></td>
+  </tr>
+</table>
+</center>
+
+<center>
+	<div class="Copyright" id="Copyright">
+		<table width="100%" height="37" cellspacing="0">
+			<tr>
+				<td align="left" style="PADDING-LEFT: 10px">
+					<font style="font-variant:small-caps; font-weight:bold"><?=PROJECTNAME?></font>
+				</td>
+				<td align="right" style="PADDING-RIGHT: 10px">
+					© <?=START_YEAR?>-<?=date("Y")?>&nbsp;<?=COPYRIGHT?>
+				</td>
+			</tr>
+	  </table>
+	</div>
+</center>
+</body>
+</html>
